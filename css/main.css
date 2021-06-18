@@ -28,3 +28,19 @@
     margin: 80px;
     text-align: center;
 }
+
+.paddd{
+    padding: 20px;
+}
+
+
+.contorno{
+    padding: 25px;
+    border: solid .5px rgb(184, 184, 184);
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+
+}
