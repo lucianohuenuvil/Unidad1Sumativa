@@ -29,6 +29,36 @@ let productos = [
         "id": "tvledlg",
         "precio": 209990,
     },
+    {
+        "nombre": "chromecast",
+        "id": "chromecast",
+        "precio": 29990,
+    },
+    {
+        "nombre": "Notebook asus Pro",
+        "id": "notebookasuspro",
+        "precio": 779990,
+    },
+    {
+        "nombre": "Xiaomi mi watch",
+        "id": "xiaomimiwatch",
+        "precio": 99990,
+    },
+    {
+        "nombre": "Alexa",
+        "id": "alexa",
+        "precio": 45990,
+    },
+    {
+        "nombre": "Tp Link",
+        "id": "tplink",
+        "precio": 9990,
+    },
+    {
+        "nombre": "Tv Phillip",
+        "id": "tvphillip",
+        "precio": 239990,
+    },
  
 ]
 
