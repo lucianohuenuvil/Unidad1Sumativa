@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .products{
@@ -14,4 +15,16 @@
 
 .products-content{
     margin: 40px;
+}
+
+
+
+.container-ajustar{
+    margin: 80px;
+ 
+}
+
+.container-ajustar h2{
+    margin: 80px;
+    text-align: center;
 }
