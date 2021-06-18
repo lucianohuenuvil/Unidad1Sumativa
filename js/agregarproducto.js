@@ -67,25 +67,30 @@ var productosselect = new Array();
 
 function agregar(comp){
 
-
-    //document.write(comp.id);
-    var entrada = new Array();
-    let producto = productos.find(producto => producto.id === comp.id)
+    let producto = productos.find(producto => producto.id === comp.id);
 
     if(producto){
-
-        document.write(producto.precio);
+        //document.write(producto.precio);
+        productosselect.push(producto.precio);
     }
 
+   // window.location.href = "productos.html";
 
 
-
-
+    console.log(productosselect);
 
 
 }
 
 
+
+function mostrar(){
+    alert("Page is loaded");
+    document.write("hola");
+    let total = 0;
+    let imp = "";
+
+}
 
 
 
