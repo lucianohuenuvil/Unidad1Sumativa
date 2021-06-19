@@ -68,27 +68,23 @@ var productosselect = new Array();
 function agregar(comp){
 
     let producto = productos.find(producto => producto.id === comp.id);
-
+    let total = 0;
     if(producto){
         //document.write(producto.precio);
         productosselect.push(producto.precio);
+        console.log(producto.precio);
+
     }
 
-   // window.location.href = "productos.html";
+    for (i in productosselect){
+        total = total + productosselect[i];
 
+    }
 
-    console.log(productosselect);
+    let mensaje = "El total a pagar es: "
+    alert(mensaje + " " +total);
+  
 
-
-}
-
-
-
-function mostrar(){
-    alert("Page is loaded");
-    document.write("hola");
-    let total = 0;
-    let imp = "";
 
 }
 
